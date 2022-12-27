@@ -28,17 +28,3 @@ const api = {
   sync: {},
   search: {},
 };
-
-const posts = [
-  {
-    id: 1,
-    customer: {}, // api.search.customer('1234')
-    title: 'Переустановка ОС',
-    ticket: {},
-    content: '10 АРМ',
-  },
-  { id: 2, title: 'Установка', content: 'React можно установить из npm.' },
-];
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Blog posts={posts} />);
