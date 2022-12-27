@@ -1,3 +1,12 @@
 # otobo-auth-app
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-nvezjt)
+``yaml
+config:
+file: /config/api.yaml
+``
+```
+API_URL=""
+API_USER=""
+```
+
+

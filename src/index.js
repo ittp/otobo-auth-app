@@ -23,15 +23,14 @@ let data = {
 class Page extends React.Component {
   constructor(config) {
     super(config);
-    this.config = {
-      themes: loadThemes,
-    };
+    this.config = {}
   }
 
   render() {
     return (
       <>
         <header>1</header>
+
         <section>...Content</section>
       </>
     );
